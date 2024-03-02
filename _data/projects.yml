@@ -5,7 +5,7 @@
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   date: true
   link: https://example.com
-  image:  http://placehold.it/100x100
+  image:  
   tech: 
     - python
 
@@ -17,7 +17,7 @@
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
   date: true
   link: https://example.com
-  image: http://placehold.it/100x100
+  image: 
   tech: 
     - c++
 
@@ -28,7 +28,7 @@
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
   date: true
   link: https://example.com
-  image:  http://placehold.it/100x100
+  image:  
   tech: 
     - Java
     - Maven
@@ -41,7 +41,7 @@
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 0
   date: true
   link: https://example.com
-  image: http://placehold.it/100x100
+  image: 
   tech: 
     - Sonarcube
     - Java
