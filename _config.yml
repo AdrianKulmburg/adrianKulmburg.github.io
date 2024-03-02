@@ -20,7 +20,8 @@ image_alt: A minimalistic jekyll theme for academic    # image description
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Adrian Kulmburg
-profile_image: /assets/img/avatar/Cropped.png
+profile_image: /assets/img/avatar/first_version.JPG
+#profile_image: /assets/img/avatar/second_version.png
 occupation: Mathematician
 snippet:
 twitter: 
