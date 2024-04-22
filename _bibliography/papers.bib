@@ -1,113 +1,96 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@misc{kulmburg2024approximability,
+      title={{Approximability of the Containment Problem for Zonotopes and Ellipsotopes}}, 
+      author={Adrian Kulmburg, Lukas Schäfer, Matthias Althoff},
+      year={2024},
+      eprint={2404.11185},
+      archivePrefix={arXiv},
+	  note={Submitted to IEEE Transactions on Automatic Control},
+	  
+	  arxiv={2404.11185},
+	  code={https://github.com/AdrianKulmburg/approxEllipsotopeContainment},
+	  bibtex_show={true},
+	  selected={true},
+	  status={submitted},
+	  abstract={The zonotope containment problem, i.e., whether one zonotope is contained in another, is a central problem in control theory to compute invariant sets, obtain fixed points of reachable sets, detect faults, and robustify controllers. Despite the inherent co-NP-hardness of this problem, an approximation algorithm developed by S. Sadraddini and R. Tedrake has gained widespread recognition for its swift execution and consistent reliability in practical scenarios. In our study, we substantiate the precision of the algorithm with a definitive proof, elucidating the empirical accuracy observed in practice. Our proof hinges on establishing a connection between the containment problem and the computation of matrix norms, thereby enabling the extension of the approximation algorithm to encompass ellipsotopes, a broader class of sets derived from zonotopes. Moreover, we explore the computational complexity of the ellipsotope containment problem, focusing on approximability. Finally, we present new methods to calculate robust control invariant sets for linear dynamical systems, demonstrating the practical relevance of approximations to the ellipsotope containment problem.}
 }
 
-@book{einstein1956investigations,
+@inproceedings{kulmburg2024,
+  author={Adrian Kulmburg and Ivan Brkan and Matthias Althoff},
+  booktitle={European Control Conference (ECC)}, 
+  title={Search-based and Stochastic Solutions to the Zonotope and Ellipsotope Containment Problems}, 
+  year={2024},
+  note={To appear},
+  
+  code = {https://github.com/AdrianKulmburg/ellipsotopeContainmentProblem},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  selected={true},
+  status={toAppear},
+  abstract={We introduce new techniques to check whether a zonotope is contained in another zonotope. This fundamental problem in control theory has many applications, such as the verification of invariant sets, formal verification of controllers, and fault detection. Our first method uses a search-based vertex enumeration to quickly and efficiently check containment. We also propose two stochastic methods that are able to rapidly disprove or confirm containment with a certain probability. Furthermore, we generalize the first approach to the case where the circumbody is an ellipsotope and generalize the stochastic methods to the case where both the inbody and the circumbody are ellipsotopes. We conclude by comparing the efficiency of our algorithms to currently available ones.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{kulmburg2023,
+      archivePrefix={arXiv},
+      title={{The Generalized Matrix Norm Problem}}, 
+      author={Adrian Kulmburg},
+      year={2023},
+      eprint={2310.00605},
+      note={To appear in SIAM Journal on Matrix Analysis and Applications (SIMAX)},
+	  
+	  code={https://github.com/AdrianKulmburg/generalizedMatrixNorms},
+	  arxiv={2310.00605},
+	  bibtex_show={true},
+	  selected={true},
+      status={accepted},
+	  abstract={We investigate the problem of computing the operator norm of a matrix with respect to norms induced by linear operators. We show that the dual formulation of this problem can be expressed as a max-min problem which can, for some specific cases, be solved in polynomial time. In other instances, we show that the problem is approximable. Along the way, we develop the concept of push-forward and pull-back of seminorms, and deduce new duality results when optimizing over the unit ball of various norms.}
+}
+
+@article{wetzlinger2022,
+title = {Adaptive reachability algorithms for nonlinear systems using abstraction error analysis},
+journal = {Nonlinear Analysis: Hybrid Systems},
+volume = {46},
+pages = {101252},
+year = {2022},
+doi = {10.1016/j.nahs.2022.101252},
+author = {Mark Wetzlinger and Adrian Kulmburg and Alexis {Le Penven} and Matthias Althoff},
+
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  status={published},
+abstract={In many reachability algorithms for nonlinear ordinary differential equations (ODEs), the tightness of the computed reachable sets mainly depends on abstraction errors and the choice of the set representation. One has to mitigate the resulting wrapping effects by suitable tuning of internally-used algorithm parameters since there exists no wrapping-free algorithm to date. In this work, we investigate the fundamentals governing the abstraction error in reachability algorithms – which we also refer to as set-based solvers – and its dependence on the time step size, leading to the introduction of a gain order. This order is related to measures for local and global abstraction errors and thus relates the well-known concept of convergence order from classical ODE solvers to set-based solvers. Furthermore, the simplification of the set representation is tackled by limiting the Hausdorff distance between the original and reduced sets; we demonstrate this for zonotopes. Both these theoretical advancements are incorporated in a modular adaptive parameter tuning algorithm suited for multiple classes of nonlinear ODEs whose efficiency is demonstrated on a wide range of benchmarks.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
+@inproceedings{wetzlinger2021,
+author = {Wetzlinger, Mark and Kulmburg, Adrian and Althoff, Matthias},
+title = {Adaptive parameter tuning for reachability analysis of nonlinear systems},
+year = {2021},
+publisher = {Association for Computing Machinery},
+doi = {10.1145/3447928.3456643},
+booktitle = {Proceedings of the 24th International Conference on Hybrid Systems: Computation and Control},
+articleno = {16},
+
+code = {https://codeocean.com/capsule/1174390/tree/v1},
+bibtex_show={true},
+  status={published},
+abstract={Reachability analysis fails to produce tight reachable sets if certain algorithm parameters are poorly tuned, such as the time step size or the accuracy of the set representation. The tuning is especially difficult in the context of nonlinear systems where over-approximation errors accumulate over time due to the so-called wrapping effect, often requiring expert knowledge. In order to widen the applicability of reachability analysis for practitioners, we propose the first adaptive parameter tuning approach for reachability analysis of nonlinear continuous systems tuning all algorithm parameters. Our modular approach can be applied to different reachability algorithms as well as various set representations. Finally, an evaluation on numerous benchmark systems shows that the adaptive parameter tuning approach efficiently computes very tight enclosures of reachable sets.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{kulmburg2021,
+title = {On the {co-NP-completeness} of the zonotope containment problem},
+journal = {European Journal of Control},
+volume = {62},
+pages = {84-91},
+year = {2021},
+doi = {10.1016/j.ejcon.2021.06.028},
+author = {Adrian Kulmburg and Matthias Althoff},
+
+slides = {https://adrian.kulmburg.com/assets/papers/kulmburg2021/presentation.pdf},
+code = {https://github.com/AdrianKulmburg/ZonotopeContainmentProblem},
+bibtex_show={true},
+	  selected={true},
+      status={published},
+abstract={We introduce a new type of norm for non-degenerate zonotopes to solve the point containment problem, i.e., whether a point lies in a zonotope. With this norm we prove the co-NP-completeness of the zonotope containment problem, i.e., whether a zonotope is contained within another one. We propose novel algorithms to solve the zonotope containment problem exactly in polynomial time when fixing the dimension or the number of generators of either of the two zonotopes. In addition, we propose an optimisation-based algorithm, that is particularly suitable for disproving containment for zonotopes.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+

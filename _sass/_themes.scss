@@ -3,20 +3,28 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$kulmburg-white};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-text-link-color: #{$kulmburg-blue};
+  --global-text-color-light: #{$kulmburg-yellow};
+  --global-theme-color: #{$kulmburg-red};
+  --global-hover-color: #{$kulmburg-blue};
+  --global-hover-text-color: #{$kulmburg-blue};
+  --global-footer-bg-color: #{$kulmburg-blue};
+  --global-footer-text-color: #{$kulmburg-white};
+  --global-footer-link-color: #{$kulmburg-yellow};
+  --global-distill-app-color: #{$kulmburg-blue};
+  --global-divider-color: #{$kulmburg-blue};
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
+  --global-header-text-color: #{$kulmburg-white};
+  --global-header-active-color: #{$kulmburg-yellow};
+  
+  --global-submitted-color: #{$rpth-red};
+  --global-accepted-color: #{$rpth-yellow};
+  --global-toAppear-color: #{$rpth-completion-green};
+ 
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -67,6 +75,11 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  
+  --global-text-link-color: #{$cyan-color};
+  --global-footer-link-color: #{$kulmburg-yellow};
+  --global-header-text-color: #{$grey-color-light};
+  --global-header-active-color: #{$cyan-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

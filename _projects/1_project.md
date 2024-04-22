@@ -2,9 +2,9 @@
 layout: page
 title: project 1
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/coraLogo.png
 importance: 1
-category: work
+category: [Software Development]
 related_publications: true
 ---
 
@@ -18,7 +18,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/coraLogo.png
     ---
 
 <div class="row">
