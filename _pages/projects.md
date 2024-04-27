@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-nav: false
+nav: true
 nav_order: 3
 display_categories: [Software Development]
 horizontal: false
