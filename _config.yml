@@ -330,6 +330,7 @@ filtered_bibtex_keywords:
     additional_info,
     altmetric,
     arxiv,
+    file,
     award,
     award_name,
     bibtex_show,

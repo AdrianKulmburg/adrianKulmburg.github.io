@@ -1,3 +1,18 @@
+@ARTICLE{wetzlinger2024,
+  author={Wetzlinger, Mark and Kulmburg, Adrian and Althoff, Matthias},
+  journal={IEEE Control Systems Letters}, 
+  title={Inner Approximations of Reachable Sets for Nonlinear Systems Using the Minkowski Difference}, 
+  year={2024},
+  volume={8},
+  pages={2033-2038},
+  doi={10.1109/LCSYS.2024.3421194}
+  
+  bibtex_show={true},
+  status={published},
+  abstract = {Reachability analysis is a formal method that rigorously proves whether a dynamical system can reach certain states. Inner approximations of the exact reachable set contain only states that are definitely reachable and are therefore used to falsify specifications. While the majority of state-of-the-art approaches for nonlinear systems obtain an inner approximation via first computing an outer approximation of the reachable set, we directly obtain sound inner approximations by using the Minkowski difference in a reachability algorithm for nonlinear systems. Our implementation uses a combination of polytopes and constrained zonotopes as set representations, resulting in a low polynomial time complexity in the state dimension. A comparison with state-of-the-art approaches on several benchmarks demonstrates the advantages of our approach.}
+}
+
+
 @misc{kulmburg2024approximability,
       title={{Approximability of the Containment Problem for Zonotopes and Ellipsotopes}}, 
       author={Adrian Kulmburg and Lukas Schäfer and Matthias Althoff},
@@ -22,9 +37,10 @@
   note={To appear},
   
   code = {https://github.com/AdrianKulmburg/ellipsotopeContainmentProblem},
+  file = {https://mediatum.ub.tum.de/doc/1750874/qbm0pp7bfsajlf7vm0qp3ikln.search_and_stochastic_containment.pdf},
   bibtex_show={true},
   selected={true},
-  status={toAppear},
+  status={published},
   abstract={We introduce new techniques to check whether a zonotope is contained in another zonotope. This fundamental problem in control theory has many applications, such as the verification of invariant sets, formal verification of controllers, and fault detection. Our first method uses a search-based vertex enumeration to quickly and efficiently check containment. We also propose two stochastic methods that are able to rapidly disprove or confirm containment with a certain probability. Furthermore, we generalize the first approach to the case where the circumbody is an ellipsotope and generalize the stochastic methods to the case where both the inbody and the circumbody are ellipsotopes. We conclude by comparing the efficiency of our algorithms to currently available ones.}
 }
 
@@ -68,6 +84,7 @@ booktitle = {Proceedings of the 24th International Conference on Hybrid Systems:
 articleno = {16},
 
 code = {https://codeocean.com/capsule/1174390/tree/v1},
+file = {https://mediatum.ub.tum.de/doc/1615814/gwj94isxrct41uqcp7bxo3wat.pdf},
 bibtex_show={true},
   status={published},
 abstract={Reachability analysis fails to produce tight reachable sets if certain algorithm parameters are poorly tuned, such as the time step size or the accuracy of the set representation. The tuning is especially difficult in the context of nonlinear systems where over-approximation errors accumulate over time due to the so-called wrapping effect, often requiring expert knowledge. In order to widen the applicability of reachability analysis for practitioners, we propose the first adaptive parameter tuning approach for reachability analysis of nonlinear continuous systems tuning all algorithm parameters. Our modular approach can be applied to different reachability algorithms as well as various set representations. Finally, an evaluation on numerous benchmark systems shows that the adaptive parameter tuning approach efficiently computes very tight enclosures of reachable sets.}
@@ -84,6 +101,7 @@ author = {Adrian Kulmburg and Matthias Althoff},
 
 slides = {https://adrian.kulmburg.com/assets/papers/kulmburg2021/presentation.pdf},
 code = {https://github.com/AdrianKulmburg/ZonotopeContainmentProblem},
+file = {https://mediatum.ub.tum.de/doc/1616344/ek0y55j3nxac1v7990lqsgwxu.2021_AK_MA_on_the_conp_completeness_of_the_zonotope_containment_problem.pdf},
 bibtex_show={true},
 	  selected={true},
       status={published},
