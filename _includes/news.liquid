@@ -21,11 +21,7 @@
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url | replace: "/news","/_news" }}">{{ item.title }}</a> {{item.url}}<br/>
-				{{relative_url}}<br/>
-				{{item.url | '/_news'}}<br/>
-				{{item.title}}
-				{{item.subtitle}}
+                <a class="news-title" href="{{ item.url | relative_url}}">{{ item.title }}</a>
               {% endif %}
             </td> 
           </tr>
