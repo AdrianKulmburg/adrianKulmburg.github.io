@@ -14,4 +14,4 @@ The two papers can be found here:
 <br/>
 <a href="https://arxiv.org/abs/2310.00605">TAC-paper</a>
 
-Of course, many thanks to the anonymous reviewers, for there very insightful comments and suggestions!
+Of course, many thanks to the anonymous reviewers, for their very insightful comments and suggestions!
