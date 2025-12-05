@@ -536,10 +536,6 @@ footer.sticky-bottom {
   }
 }
 
-.post-header {
-  color: var(--global-footer-bg-color);
-}
-
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
@@ -558,13 +554,13 @@ footer.sticky-bottom {
     padding-bottom: 2rem;
 
     .post-meta {
-      color: var(--global-text-color-light);
+      color: var(--global-footer-bg-color);
       font-size: 0.875rem;
       margin-bottom: 0;
     }
 
     .post-tags {
-      color: var(--global-text-color-light);
+      color: var(--global-footer-bg-color);
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
