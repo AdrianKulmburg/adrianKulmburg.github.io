@@ -879,13 +879,13 @@ html.transition *:after {
 // Extra Markdown style (post Customization)
 .post {
   .post-meta {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
 
   .post-tags {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
@@ -1094,7 +1094,7 @@ nav[data-toggle="toc"] {
   }
 
   .post-meta {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     font-size: 0.875rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
