@@ -536,6 +536,10 @@ footer.sticky-bottom {
   }
 }
 
+.post-header {
+  color: var(--global-footer-bg-color);
+}
+
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
