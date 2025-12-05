@@ -10,7 +10,7 @@
   
   bibtex_show={true},
   status={published},
-  abstract = {Tool presentation: Polyhedra are a common set representation with widespread appli- cations in many areas of research, including convex geometry, reachability analysis, and invariant set computation. Their popularity stems from a tight relation to linear program- ming. Apart from some basic set operations with analytic formulae, the implementation of many polyhedral set operations in tools is not well documented. For this reason, we describe the evaluation of common set operations on polyhedra, including their runtime complexity, and provide an overview of their implementation as a dedicated class in the MATLAB tool Continuous Reachability Analyzer (CORA) for set-based computing. In particular, we highlight the handling of unbounded and degenerate sets. Finally, we com- pare our implementation to the popular multi-parametric toolbox.}
+  abstract = {Tool presentation: Polyhedra are a common set representation with widespread applications in many areas of research, including convex geometry, reachability analysis, and invariant set computation. Their popularity stems from a tight relation to linear programming. Apart from some basic set operations with analytic formulae, the implementation of many polyhedral set operations in tools is not well documented. For this reason, we describe the evaluation of common set operations on polyhedra, including their runtime complexity, and provide an overview of their implementation as a dedicated class in the MATLAB tool Continuous Reachability Analyzer (CORA) for set-based computing. In particular, we highlight the handling of unbounded and degenerate sets. Finally, we compare our implementation to the popular multi-parametric toolbox.}
 }
 
 @article{wetzlinger2024,
@@ -27,20 +27,22 @@
   abstract = {Reachability analysis is a formal method that rigorously proves whether a dynamical system can reach certain states. Inner approximations of the exact reachable set contain only states that are definitely reachable and are therefore used to falsify specifications. While the majority of state-of-the-art approaches for nonlinear systems obtain an inner approximation via first computing an outer approximation of the reachable set, we directly obtain sound inner approximations by using the Minkowski difference in a reachability algorithm for nonlinear systems. Our implementation uses a combination of polytopes and constrained zonotopes as set representations, resulting in a low polynomial time complexity in the state dimension. A comparison with state-of-the-art approaches on several benchmarks demonstrates the advantages of our approach.}
 }
 
-@misc{kulmburg2024approximability,
+@article{kulmburg2025approximability,
       title={{Approximability of the Containment Problem for Zonotopes and Ellipsotopes}}, 
       author={Adrian Kulmburg and Lukas Schäfer and Matthias Althoff},
-      year={2024},
-      eprint={2404.11185},
-      archivePrefix={arXiv},
-	  note={Submitted to IEEE Transactions on Automatic Control},
+      journal={IEEE Transactions on Automatic Control},
+      year={2025},
+      volume={70},
+      number={12},
+      pages={8104-8119},
+      doi={10.1109/TAC.2025.3583624},
 	  
 	  arxiv={2404.11185},
-	  code={https://github.com/AdrianKulmburg/approxEllipsotopeContainment},
+	  code={https://codeocean.com/capsule/5598835/tree/v1},
 	  bibtex_show={true},
 	  selected={true},
-	  status={accepted},
-	  abstract={The zonotope containment problem, i.e., whether one zonotope is contained in another, is a central problem in control theory to compute invariant sets, obtain fixed points of reachable sets, detect faults, and robustify controllers. Despite the inherent co-NP-hardness of this problem, an approximation algorithm developed by S. Sadraddini and R. Tedrake has gained widespread recognition for its swift execution and consistent reliability in practical scenarios. In our study, we substantiate the precision of the algorithm with a definitive proof, elucidating the empirical accuracy observed in practice. Our proof hinges on establishing a connection between the containment problem and the computation of matrix norms, thereby enabling the extension of the approximation algorithm to encompass ellipsotopes, a broader class of sets derived from zonotopes. Moreover, we explore the computational complexity of the ellipsotope containment problem, focusing on approximability. Finally, we present new methods to calculate robust control invariant sets for linear dynamical systems, demonstrating the practical relevance of approximations to the ellipsotope containment problem.}
+	  status={published},
+	  abstract={The zonotope containment problem, i.e., whether one zonotope is contained in another, is a central problem in control theory. Applications include detecting faults and robustifying controllers by computing invariant sets, and obtaining fixed points in reachability analysis. Despite the inherent coNP-hardness of this problem, an approximation algorithm developed by S. Sadraddini and R. Tedrake has gained widespread recognition for its swift execution and consistent reliability in practice. In our study, we substantiate the precision of the algorithm with a definitive proof, elucidating the empirical accuracy observed in practice. Our proof hinges on establishing a connection between the containment problem and the computation of matrix norms, thereby enabling the extension of the approximation algorithm to encompass ellipsotopes - a broader class of sets derived from zonotopes. We also explore the computational complexity of the ellipsotope containment problem with a focus on approximability. Finally, we present new methods to compute safe sets for linear dynamical systems, demonstrating the practical relevance of approximating the ellipsotope containment problem.}
 }
 
 @inproceedings{kulmburg2024,
@@ -51,26 +53,29 @@
   
   code = {https://github.com/AdrianKulmburg/ellipsotopeContainmentProblem},
   file = {https://mediatum.ub.tum.de/doc/1750874/qbm0pp7bfsajlf7vm0qp3ikln.search_and_stochastic_containment.pdf},
+  slides = {https://adrian.kulmburg.com/assets/papers/kulmburg2024/presentation.pdf},
   bibtex_show={true},
   selected={true},
   status={published},
   abstract={We introduce new techniques to check whether a zonotope is contained in another zonotope. This fundamental problem in control theory has many applications, such as the verification of invariant sets, formal verification of controllers, and fault detection. Our first method uses a search-based vertex enumeration to quickly and efficiently check containment. We also propose two stochastic methods that are able to rapidly disprove or confirm containment with a certain probability. Furthermore, we generalize the first approach to the case where the circumbody is an ellipsotope and generalize the stochastic methods to the case where both the inbody and the circumbody are ellipsotopes. We conclude by comparing the efficiency of our algorithms to currently available ones.}
 }
 
-@article{kulmburg2023,
-      archivePrefix={arXiv},
+@article{kulmburg2025generalized,
       title={{The Generalized Matrix Norm Problem}}, 
       author={Adrian Kulmburg},
-      year={2023},
-      eprint={2310.00605},
-      note={Submitted to the SIAM Journal on Matrix Analysis and Applications (SIMAX)},
+      journal = {SIAM Journal on Matrix Analysis and Applications},
+      volume = {46},
+      number = {4},
+      pages = {2226-2252},
+      year = {2025},
+      doi = {10.1137/23M1605545},
 	  
-	  code={https://github.com/AdrianKulmburg/generalizedMatrixNorms},
+	  code={https://codeocean.com/capsule/8982170/tree/v2},
 	  arxiv={2310.00605},
 	  bibtex_show={true},
 	  selected={true},
-      status={accepted},
-	  abstract={We investigate the problem of computing the operator norm of a matrix with respect to norms induced by linear operators. We show that the dual formulation of this problem can be expressed as a max-min problem which can, for some specific cases, be solved in polynomial time. In other instances, we show that the problem is approximable. Along the way, we develop the concept of push-forward and pull-back of seminorms, and deduce new duality results when optimizing over the unit ball of various norms.}
+      status={published},
+	  abstract={We study the computability of the operator norm of a matrix with respect to norms induced by linear operators. Our findings reveal that this problem can be solved in polynomial time in certain situations, and we discuss how it can be approximated in other cases. Along the way, we investigate the concept of push-forward and pull-back of seminorms, which leads us to uncover novel duality principles that come into play when optimizing over the unit ball of norms.}
 }
 
 @article{wetzlinger2022,
