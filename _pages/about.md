@@ -9,11 +9,13 @@ profile:
   image: adrian_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-     <p>Photo: © <a href="https://rabea-strauch.de/">Rabea Strauch</a> / KIT</p>
-#    <p>Room 03.07.039</p>
-#    <p>Boltzmannstr. 3</p>
-#    <p>Garching b. München</p>
-#    <p>85748, Germany</p>
+     <p>Photo:
+     © <a href="https://rabea-strauch.de/">Rabea Strauch</a> / KIT</p>
+    <p>Room 139</p>
+    <p>Building 50.34</p>
+    <p>Am Fasanengarten 5</p>
+    <p>Karlsruhe</p>
+    <p>76131, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
