@@ -8,14 +8,13 @@ profile:
   align: right
   image: adrian_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: <p>Test</p>
-#     <p>Photo:
-#     © <a href="https://rabea-strauch.de/">Rabea Strauch</a> / KIT</p>
-#    <p>Room 139</p>
-#    <p>Building 50.34</p>
-#    <p>Am Fasanengarten 5</p>
-#    <p>Karlsruhe</p>
-#    <p>76131, Germany</p>
+  more_info: <p>Photo:
+     © <a href="https://rabea-strauch.de/">Rabea Strauch</a> / KIT</p>
+    <p>Room 139</p>
+    <p>Building 50.34</p>
+    <p>Am Fasanengarten 5</p>
+    <p>Karlsruhe</p>
+    <p>76131, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
