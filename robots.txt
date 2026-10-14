@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://github.com/AdrianKulmburg/adrianKulmburg.github.io/sitemap.xml
+Sitemap: https://adrian.kulmburg.com/sitemap.xml
