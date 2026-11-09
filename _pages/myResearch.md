@@ -6,6 +6,10 @@ nav: true
 nav_order: 2
 ---
 
-My current research focuses on safety guarantees of cyber-physical systems, such as autonomous vehicles or robots. I am currently developing methods to formalize the consistency of complex systems, with the help of differential dynamic logic for hybrid systems.
+A lot of algorithms for cyber-physical systems are typically unsafe. For instance, on a higher level, trajectory planners often using machine learning or optimization solvers to calculate the next optimal trajectory; this works *most of the time*, but for safety-critical systems such as autonomous vehicles, smart power grids, or medical devices, incorrect predictions can result in catastrophic outcomes.
 
-Though seemingly unrelated, my research also ecompasses methods from functional analysis, such as tensor products of Banach spaces, as these concepts are connected to the computation of matrix norms, which in turn can be used to verify whether certain kinds of sets are contained in a given area (for instance, if both regions are modeled using ellipsotopes).
+This is where formal methods enter the picture: Using a variety of techniques, system behavior can be predicted in a safe manner, for instance using approximations of reachable sets of dynamical systems (i.e., an approximation of the trajectories a model can physically reach), or the formal verification of the software that is running on the platform (i.e., is the code that is running actually performing what it was meant to do?).
+
+My methods aim to advance this field, by combining methods from a variety of mathematical areas, such as functional analysis, convex geometry, complexity theory, or deductive logic, to guarantee that tomorrow's autonomous can be trusted.
+
+Specifically, at the moment I am working a lot with matrix norms and containment problems for convex sets, which were the main topics during my PhD. However, my recent interests also include differential dynamic logic and the amazing world of mathematical logic, which I use to strenghten some of my results.
