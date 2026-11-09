@@ -8,7 +8,7 @@ middle_name:
 last_name: Kulmburg
 email: adrian [dot] kulmburg [at] kit [dot] edu
 description: #> # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal webpage of Adrian Kulmburg.
+  Personal webpage of Adrian Kulmburg, mathematician at the Karlsruhe Institute of Technology in Germany, working on formal verification of cyber-physical systems.
 footer_text: #>
   #© Copyright 2024 Adrian Kulmburg.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
