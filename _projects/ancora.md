@@ -6,4 +6,5 @@ img: /assets/img/ancoraLogo.png
 importance: 3
 category: [Software Development]
 redirect: https://github.com/AdrianKulmburg/ancora
+sitemap: false
 ---

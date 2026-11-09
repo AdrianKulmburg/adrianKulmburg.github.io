@@ -6,4 +6,5 @@ img: /assets/img/arocLogo.png
 importance: 2
 category: [Software Development]
 redirect: https://tumcps.github.io/AROC/
+sitemap: false
 ---

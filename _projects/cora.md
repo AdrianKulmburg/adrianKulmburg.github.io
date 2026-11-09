@@ -6,4 +6,5 @@ img: /assets/img/coraLogo.png
 importance: 1
 category: [Software Development]
 redirect: https://tumcps.github.io/CORA/
+sitemap: false
 ---
