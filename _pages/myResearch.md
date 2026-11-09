@@ -1,6 +1,7 @@
 ---
 layout: page
 title: My Research
+description: Formal methods for safe cyber-physical systems, from reachability analysis and set containment to differential dynamic logic.
 permalink: /myResearch/
 nav: true
 nav_order: 2

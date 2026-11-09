@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+description: Software I develop or contribute to, including the CORA and AROC toolboxes and the ancora C library.
 permalink: /projects/
 nav: true
 nav_order: 4

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Containment comes to CORA
+description: CORA 2025.1.0 adds new techniques to check set containment and to measure how far a set is from being contained.
 date: 2025-02-18 12:53:00
 inline: false
 related_posts: false
